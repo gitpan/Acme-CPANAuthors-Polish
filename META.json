@@ -4,7 +4,7 @@
       "Przemyslaw Wesolek <jest@go.art.pl>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.131490",
    "license" : [
       "artistic_2"
    ],
@@ -37,6 +37,6 @@
          "web" : "https://github.com/jest/perl.mod.Acme-CPANAuthors-Polish"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

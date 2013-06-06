@@ -4,10 +4,30 @@ use utf8;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Acme::CPANAuthors::Register (
-	PWES => 'Przemysław Wesołek'
+    ADAMOWSKI => 'Aleksander Adamowski',
+    AJGB      => 'Alex J. G. Burzyński',
+    ANNIHITEK => 'Mateusz Szczyrzyca',
+    BIESZCZAD => 'Krzysztof Bieszczad',
+    DADAMK    => 'Darek Adamkiewicz',
+    DEPESZ    => 'Hubert depesz Lubaczewski',
+    DEXTER    => 'Piotr Roszatycki',
+    GBSHOUSE  => 'Piotr Ginalski',
+    IZI       => 'Krzysztof Suchomski',
+    MCEGLOWS  => 'Maciej Ceglowski',
+    ODYNIEC   => 'Michał Wojciechowski',
+    PAPKALA   => 'Grzegorz Papkala',
+    PCZERKAS  => 'Przemek Czerkas',
+    PKALUSKI  => 'Piotr Kałuski',
+    PWES      => 'Przemysław Wesołek',
+    SEBNOW    => 'Sebastian Nowicki',
+    STRZELEC  => 'Łukasz Strzelecki',
+    TADZIK    => 'Tadeusz Sośnierz',
+    XENU      => 'Tomasz Konojacki',
+    ZBY       => 'Zbigniew Łukasiak',
+    ZBYS      => 'Zbigniew Sroczynski',
 );
 
 1;
@@ -26,7 +46,7 @@ Acme::CPANAuthors::Polish - jesteśmy autorami-Polakami modułów na CPAN
 
 =head1 VERSION
 
-version 0.001
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -34,10 +54,10 @@ version 0.001
 	
 	my $number = $authors->count;
 	my @ids = $authors->id;
-	my @distros = $authors->distributions("PWES");
+	my @distros = $authors->distributions("ZBY");
 	my $url = $authors->avatar_url("PWES");
-	my $kwalitee = $authors->kwalitee("PWES");
-	my $name = $authors->name("PWES");
+	my $kwalitee = $authors->kwalitee("TADZIK");
+	my $name = $authors->name("PMURIAS");
 
 See documentation for L<Acme::CPANAuthors> for more details.
 
