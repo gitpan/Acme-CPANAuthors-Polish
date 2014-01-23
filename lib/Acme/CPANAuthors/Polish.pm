@@ -4,7 +4,7 @@ use utf8;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Acme::CPANAuthors::Register (
     ADAMOWSKI => 'Aleksander Adamowski',
@@ -15,6 +15,7 @@ use Acme::CPANAuthors::Register (
     DEPESZ    => 'Hubert depesz Lubaczewski',
     DEXTER    => 'Piotr Roszatycki',
     GBSHOUSE  => 'Piotr Ginalski',
+    GLITCHMR  => 'Konrad Borowski',
     IZI       => 'Krzysztof Suchomski',
     MCEGLOWS  => 'Maciej Ceglowski',
     ODYNIEC   => 'Michał Wojciechowski',
@@ -25,6 +26,7 @@ use Acme::CPANAuthors::Register (
     SEBNOW    => 'Sebastian Nowicki',
     STRZELEC  => 'Łukasz Strzelecki',
     TADZIK    => 'Tadeusz Sośnierz',
+    XAERXESS  => 'Grzegorz Rożniecki',
     XENU      => 'Tomasz Konojacki',
     ZBY       => 'Zbigniew Łukasiak',
     ZBYS      => 'Zbigniew Sroczynski',
@@ -46,7 +48,7 @@ Acme::CPANAuthors::Polish - jesteśmy autorami-Polakami modułów na CPAN
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
